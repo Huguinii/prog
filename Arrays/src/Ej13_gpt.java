@@ -12,13 +12,13 @@ public class Ej13_gpt {
         System.out.println(Arrays.toString(numeros));
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("¿Quieres destacar el máximo o el mínimo? (Máximo/Minimum)");
+        System.out.println("¿Quieres destacar el máximo o el mínimo? (maximo/minimo)");
         String opcion = scanner.nextLine().toLowerCase();
 
         int numeroDestacado;
-        if (opcion.equals("máximo")) {
+        if (opcion.equals("maximo")) {
             numeroDestacado = encontrarMaximo(numeros);
-        } else if (opcion.equals("mínimo")) {
+        } else if (opcion.equals("minimo")) {
             numeroDestacado = encontrarMinimo(numeros);
         } else {
             System.out.println("Opción no válida.");
