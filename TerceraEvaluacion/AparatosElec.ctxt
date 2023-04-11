@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AparatosElec
+comment0.text=\r\n\ bombilla,\ cargador,\ usb\r\n\ \r\n\ el\ consumo\ de\ la\ bombilla\ se\ obtendra\ apartir\ de\ la\ intensidad\ *\ primer\ digito\ de\ la\ intensidad\r\n\ \r\n\ conector\ usb\ tendr\u00E1\ longitud\ en\ metros,\ potencia\ que\ nos\ da\ solo\ podra\ ser\ 2,4\ A\ o\ 5\ A\r\n\ \r\n\ tenemos\ un\ peque\u00F1o\ almacen\ de\ aparatos\ electronicos\ del\ que\ podremos\ obtener\ numero\ de\ aparatos\r\n\ numero\ de\ aparatos\ de\ un\ tipo,\ listado\ de\ todo\ lo\ que\ hay\ en\ el\ almacen\r\n\ \r\n\ preparar\ una\ opcion\ de\ carga\ del\ almacen\ con\ la\ lectura\ de\ un\ fichero\ de\ tipo\ txt\ cuyos\ datos\ iran\r\n\ separados\ por\ guiones-\ y\ podran\ ir\ mezclados\ tanto\ bombillas\ como\ cargadores\u00BA\r\n
+comment1.params=nombre\ funcion
+comment1.target=AparatosElec(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=nombre
+comment3.target=void\ setNombre(java.lang.String)
+numComments=4
